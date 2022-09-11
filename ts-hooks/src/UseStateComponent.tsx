@@ -2,6 +2,7 @@ import { useState } from "react";
 
 function UseStateComponent() {
   const [array, setArray] = useState<number[]>([]); // [] = never
+  const [name, setName] = useState<string | null>(null); // [] = never
 
   return (
     <div>
@@ -11,6 +12,10 @@ function UseStateComponent() {
         </button>
         {JSON.stringify(array)}
         <button onClick={() => setArray([])}>Reset Array</button>
+      </div>
+      <div>
+        <button onClick={() => setName("Gregor")}>Set name</button>
+        {JSON.stringify(name)}
       </div>
     </div>
   );
