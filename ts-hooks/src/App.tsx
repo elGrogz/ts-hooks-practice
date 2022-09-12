@@ -5,6 +5,8 @@ import UseStateComponent from "./UseStateComponent";
 import UseEffectComponent from "./UseEffectComponent";
 import UseContextComponent from "./UseContextComponent";
 import UseReducerComponent from "./UseReducerComponent";
+import UseRefComponent from "./UseRefComponent";
+import UseCustomHookComponent from "./UseCustomHookComponent";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <UseContextComponent />
       <h1>useReducer</h1>
       <UseReducerComponent />
+      <h1>useRef</h1>
+      <UseRefComponent />
     </div>
   );
 }
