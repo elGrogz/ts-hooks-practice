@@ -7,6 +7,8 @@ import UseContextComponent from "./UseContextComponent";
 import UseReducerComponent from "./UseReducerComponent";
 import UseRefComponent from "./UseRefComponent";
 import UseCustomHookComponent from "./UseCustomHookComponent";
+import UseMemoComponent from "./UseMemoComponent";
+import EvenMoreReactComponent from "./EvenMoreReactComponent";
 
 function App() {
   return (
@@ -23,6 +25,10 @@ function App() {
       <UseRefComponent />
       <h1>useCustomHook</h1>
       <UseCustomHookComponent />
+      <h1>useMemoHook</h1>
+      <UseMemoComponent />
+      <h1>EvenMoreReactComponent</h1>
+      <EvenMoreReactComponent />
     </div>
   );
 }
