@@ -21,6 +21,8 @@ function App() {
       <UseReducerComponent />
       <h1>useRef</h1>
       <UseRefComponent />
+      <h1>useCustomHook</h1>
+      <UseCustomHookComponent />
     </div>
   );
 }
